@@ -1,0 +1,28 @@
+{
+  "name": "CAPS",
+  "version": "1.0.0",
+  "description": "Week 4 in 401-Java-Scripts.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --coverage --verbose",
+    "lint": "eslint '**/*.js'",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-AhmadMamdouh/CAPS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-AhmadMamdouh/CAPS/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-AhmadMamdouh/CAPS#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^7.10.0",
+    "faker": "^5.1.0",
+    "jest": "^26.4.2"
+  }
+}
