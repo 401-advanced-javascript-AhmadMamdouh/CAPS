@@ -1,11 +1,11 @@
 'use strict';
-let logger = require('../caps');
+let logger = require('../caps/caps');
 let pickUpLogger = require('../driver');
-let thankLogger = require('../vendor');
+let thankLogger = require('../vendor/vendor');
 
 describe('Event handlers tests', ()=> {
   let payload = {
-    storeName: 'diana',
+    storeName: 'mamdouh',
     orderId: 89475,
     customerName: 'Unique Stehr',
     address: '1961 Caden Forges Apt. 701',
